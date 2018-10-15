@@ -1,3 +1,23 @@
-body {
-    background: green;
+html, body, article, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 100px auto auto;
+    grid-auto-rows: 100vh;
+}
+
+.column__first {
+    background-color: yellowgreen;
+}
+
+.column__second {
+    background-color: green;
+}
+
+.column__third {
+    background-color: greenyellow;
 }

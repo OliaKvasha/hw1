@@ -1,3 +1,27 @@
-body {
-    background: yellowgreen;
+html, body, article, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.columns {
+    height: 100vh;
+    display: flex;
+}
+
+.column__first {
+   background-color: yellowgreen;
+   flex-basis: 100px;
+}
+
+.column__second, .column__third {
+    flex-grow: 1;
+}
+
+.column__second {
+    background-color: green;
+}
+
+.column__third {
+    background-color: greenyellow;
 }

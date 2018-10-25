@@ -1,4 +1,7 @@
-html, body, article, section {
+html,
+body,
+article,
+section {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,13 +14,13 @@ html, body, article, section {
 }
 
 .column__first {
-    background-color: yellowgreen;
+    background-color: #9ACD32;
 }
 
 .column__second {
-    background-color: green;
+    background-color: #008000;
 }
 
 .column__third {
-    background-color: greenyellow;
+    background-color: #ADFF2F;
 }

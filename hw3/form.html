@@ -9,20 +9,22 @@
 <form action="/" method="post" enctype="multipart/form-data">
     <fieldset>
         <legend>Про себе</legend>
-        <label>Ім'я<span class="red">*</span> (Обов'язкове поле):</label>
-        <input type="text" name="name" placeholder="Введіть своє ім'я" required>
-        <p>Прізвище<span class="red">*</span> (Обов'язкове поле):
+        <label>Ім'я<span class="red">*</span> (Обов'язкове поле):
+            <input type="text" name="name" placeholder="Введіть своє ім'я" required>
+        </label>
+        <label class="block padding-top">Прізвище<span class="red">*</span> (Обов'язкове поле):
             <input type="text" name="surname" placeholder="Введіть своє прізвище" required>
-        </p>
-        <p>Стать<span class="red">*</span> (Обов'язкове поле):
+        </label>
+        <label class="block padding-top">Стать<span class="red">*</span> (Обов'язкове поле):
             <select name="sex" required>
                 <option value="">- Виберіть стать -</option>
                 <option value="male">Чоловіча</option>
                 <option value="female">Жіноча</option>
             </select>
-        </p>
-        <label>Вік (Лише цифри від 18 до 48)<span class="red">*</span> (Обов'язкове поле):</label>
-        <input type="number" name="age" min="18" max="48" required>
+        </label>
+        <label class="block padding-top">Вік (Лише цифри від 18 до 48)<span class="red">*</span> (Обов'язкове поле):
+            <input type="number" name="age" min="18" max="48" required>
+        </label>
     </fieldset>
     <fieldset>
         <legend>Фото</legend>
@@ -38,16 +40,11 @@
         <legend>Інша інформація</legend>
         <label class="block">Ваш email (Лише email адрес):</label>
         <input type="email" name="email-address" placeholder="Email">
-        <p>
-            <label class="block">Ваш телефон (Має складатись від 6-ти до 9-ти символів і має містити лише
-                цифри):</label>
-            <input type="tel" name="phone-number" pattern="[0-9]{6,9}" placeholder="Телефон">
-        </p>
-        <p>
-            <label class="block">Пароль (Пароль прихований):</label>
-            <input type="password" name="password" placeholder="Пароль">
-        </p>
-        <label class="block">Ваш веб-сайт (Лише URL адреса):</label>
+        <label class="block padding-top">Ваш телефон (Має складатись від 6-ти до 9-ти символів і має містити лише цифри):</label>
+        <input type="tel" name="phone-number" pattern="[0-9]{6,9}" placeholder="Телефон">
+        <label class="block padding-top">Пароль (Пароль прихований):</label>
+        <input type="password" name="password" placeholder="Пароль">
+        <label class="block padding-top">Ваш веб-сайт (Лише URL адреса):</label>
         <input type="url" name="website" placeholder="URL">
     </fieldset>
     <fieldset>
@@ -65,7 +62,7 @@
             <input type="radio" name="occupation" value="fix the bugs for iOS"> Фіксить баги на сайті під iOS
         </label>
         <label class="block">
-            <input type="radio" name="occupation" value="fix the flexs for IE"> Фіксить флєкса під IE
+            <input type="radio" name="occupation" value="fix the flex for IE"> Фіксить флєкса під IE
         </label>
     </fieldset>
     <fieldset>

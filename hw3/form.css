@@ -1,11 +1,21 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
 .red {
-    color: #FF0000;
+  color: #F00;
 }
 
 .block {
-    display: block;
+  display: block;
 }
 
 .padding-top {
-    padding-top: 15px;
+  padding-top: 15px;
 }

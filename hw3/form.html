@@ -9,21 +9,21 @@
 <form action="/" method="post" enctype="multipart/form-data">
     <fieldset>
         <legend>Про себе</legend>
-        <label>Ім'я<span class="red">*</span> (Обов'язкове поле):
-            <input type="text" name="name" placeholder="Введіть своє ім'я" required>
+        <label for="name">Ім'я<span class="red">*</span> (Обов'язкове поле):
+            <input type="text" name="name" id="name" placeholder="Введіть своє ім'я" required>
         </label>
-        <label class="block padding-top">Прізвище<span class="red">*</span> (Обов'язкове поле):
-            <input type="text" name="surname" placeholder="Введіть своє прізвище" required>
+        <label for="surname" class="block padding-top">Прізвище<span class="red">*</span> (Обов'язкове поле):
+            <input type="text" name="surname" id="surname" placeholder="Введіть своє прізвище" required>
         </label>
-        <label class="block padding-top">Стать<span class="red">*</span> (Обов'язкове поле):
-            <select name="sex" required>
+        <label for="sex" class="block padding-top">Стать<span class="red">*</span> (Обов'язкове поле):
+            <select name="sex" id="sex" required>
                 <option value="" disabled selected>- Виберіть стать -</option>
                 <option value="male">Чоловіча</option>
                 <option value="female">Жіноча</option>
             </select>
         </label>
-        <label class="block padding-top">Вік (Лише цифри від 18 до 48)<span class="red">*</span> (Обов'язкове поле):
-            <input type="number" name="age" min="18" max="48" required>
+        <label for="age" class="block padding-top">Вік (Лише цифри від 18 до 48)<span class="red">*</span> (Обов'язкове поле):
+            <input type="number" name="age" id="age" min="18" max="48" required>
         </label>
     </fieldset>
     <fieldset>
@@ -59,38 +59,38 @@
     </fieldset>
     <fieldset>
         <legend>Ваші улюблені заняття</legend>
-        <label class="block">
-            <input type="radio" name="occupation" value="layout-of-forms"> Вьорстка форм
+        <label for="layout-of-forms" class="block">
+            <input type="radio" name="occupation" value="layout-of-forms" id="layout-of-forms"> Вьорстка форм
         </label>
-        <label class="block">
-            <input type="radio" name="occupation" value="computer-games"> Комп'ютерні ігри
+        <label for="computer-games" class="block">
+            <input type="radio" name="occupation" value="computer-games" id="computer-games"> Комп'ютерні ігри
         </label>
-        <label class="block">
-            <input type="radio" name="occupation" value="layout-of-emails"> Вьорстка емейлів
+        <label for="layout-of-emails" class="block">
+            <input type="radio" name="occupation" value="layout-of-emails" id="layout-of-emails"> Вьорстка емейлів
         </label>
-        <label class="block">
-            <input type="radio" name="occupation" value="fix-the-bugs-for-iOS"> Фіксить баги на сайті під iOS
+        <label for="fix-the-bugs-for-iOS" class="block">
+            <input type="radio" name="occupation" value="fix-the-bugs-for-iOS" id="fix-the-bugs-for-iOS"> Фіксить баги на сайті під iOS
         </label>
-        <label class="block">
-            <input type="radio" name="occupation" value="fix-the-flex-for-IE"> Фіксить флєкса під IE
+        <label for="fix-the-flex-for-IE" class="block">
+            <input type="radio" name="occupation" value="fix-the-flex-for-IE" id="fix-the-flex-for-IE"> Фіксить флєкса під IE
         </label>
     </fieldset>
     <fieldset>
         <legend>Що вам не подобається в вьорсткі форм?</legend>
-        <label class="block">
-            <input type="checkbox" name="dizlike1" value="layout-of-forms"> Вьорстка форм
+        <label for="dizlike1" class="block">
+            <input type="checkbox" name="dizlike1" id="dizlike1" value="layout-of-forms"> Вьорстка форм
         </label>
-        <label class="block">
-            <input type="checkbox" name="dizlike2" value="drag-&-drop"> Як зверстать Drag & Drop?
+        <label for="dizlike2" class="block">
+            <input type="checkbox" name="dizlike2" id="dizlike2" value="drag-&-drop"> Як зверстать Drag & Drop?
         </label>
-        <label class="block">
-            <input type="checkbox" name="dizlike3" value="emails-the-best"> Імейли верстать круче
+        <label for="dizlike3" class="block">
+            <input type="checkbox" name="dizlike3" id="dizlike3" value="emails-the-best"> Імейли верстать круче
         </label>
-        <label class="block">
-            <input type="checkbox" name="dizlike4" value="how-to-add-style"> Як застілить випадаючий список?
+        <label for="dizlike4" class="block">
+            <input type="checkbox" name="dizlike4" id="dizlike4" value="how-to-add-style"> Як застілить випадаючий список?
         </label>
-        <label class="block">
-            <input type="checkbox" name="dizlike5" value="what-is-form"> Що таке форма?
+        <label for="dizlike5" class="block">
+            <input type="checkbox" name="dizlike5" id="dizlike5" value="what-is-form"> Що таке форма?
         </label>
     </fieldset>
     <fieldset>

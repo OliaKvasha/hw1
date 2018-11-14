@@ -276,4 +276,29 @@ body {
   bottom: 27px;
 }
 
+.view-more {
+  padding: 78px 0 69px;
+  text-align: right;
+}
+
+.view-more__link {
+  color: #303f9f;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.view-more__button {
+  width: 42px;
+  height: 42px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+}
+
+.view-more__button a {
+  color: #3f51b5;
+  font-size: 16px;
+}
+
 /*-------- main-content styles end --------*/

@@ -436,3 +436,16 @@ body {
 
 /*-------- sidebar styles end --------*/
 /*-------- main-content styles end --------*/
+
+/*-------- gallery styles start --------*/
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery_image {
+  max-width: 240px;
+}
+
+/*-------- gallery styles end --------*/

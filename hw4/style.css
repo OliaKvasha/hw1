@@ -25,6 +25,7 @@ body {
   font-size: 24px;
   letter-spacing: 1.2px;
   font-variant: small-caps;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover {
@@ -378,7 +379,60 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.social-links__title-wrap {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
 
+.social-links__title {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  padding: 0 7px;
+}
+
+.social-links__icons-list {
+  padding-top: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links__item {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.social-links__link {
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  width: 36px;
+}
+
+.social-links__item_fb {
+  background-color: #3b5999;
+}
+
+.social-links__item_twitter {
+  background-color: #55acee;
+}
+
+.social-links__item_vk {
+  background-color: #4c75a3;
+}
+
+.social-links__item_pinterest {
+  background-color: #ff2e56;
+}
+
+.social-links__item_tumblr {
+  background-color: #34465d;
+}
+
+.social-links__item_dribbble {
+  background-color: #ea4c89;
+}
 
 /*-------- sidebar styles end --------*/
 /*-------- main-content styles end --------*/

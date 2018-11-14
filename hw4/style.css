@@ -5,6 +5,10 @@ body {
   font-weight: 400;
 }
 
+.font_open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .block {
   max-width: 1170px;
   margin: auto;
@@ -120,11 +124,17 @@ body {
 /*-------- section-top styles end --------*/
 
 /*-------- main-content styles start --------*/
+/*-------- all-articles styles start --------*/
 
 .main-content {
   background-color: #f5f5f5;
   color: rgba(0, 0, 0, 0.87);
   padding-top: 91px;
+}
+
+.main-content__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .all-articles {
@@ -143,7 +153,6 @@ body {
 }
 
 .main-article__text {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.64px;
@@ -264,7 +273,6 @@ body {
 }
 
 .article__text {
-  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.56px;
@@ -301,4 +309,39 @@ body {
   font-size: 16px;
 }
 
+/*-------- all-articles styles end --------*/
+/*-------- sidebar styles start --------*/
+
+.sidebar {
+  background-color: #fff;
+  width: 330px;
+  padding: 36px 30px;
+}
+
+.sidebar__title {
+  color: #3f51b5;
+  font-size: 18px;
+  letter-spacing: 1.15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(41, 98, 255, 0.38);
+}
+
+.sidebar-menu__item {
+  font-size: 14px;
+  letter-spacing: 0.56px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-menu__item:last-child {
+  border-bottom: none;
+}
+
+.sidebar-menu__item span {
+  font-weight: 700;
+}
+
+/*-------- sidebar styles end --------*/
 /*-------- main-content styles end --------*/

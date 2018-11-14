@@ -338,6 +338,10 @@ body {
   justify-content: space-between;
 }
 
+.sidebar-menu__item:hover {
+  text-decoration: underline;
+}
+
 .sidebar-menu__item:last-child {
   border-bottom: none;
   padding-bottom: 10px;
@@ -440,6 +444,7 @@ body {
 .gallery {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .gallery_image {

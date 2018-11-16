@@ -465,7 +465,7 @@ body {
 
 /*-------- gallery styles end --------*/
 
-/*-------- subscribe-section styles start --------*/
+/*-------- footer styles start --------*/
 
 .subscribe-section {
   background-color: rgb(33, 33, 33);
@@ -502,16 +502,12 @@ body {
   background-color: rgba(48, 48, 48, 0.38);
 }
 
-/*-------- subscribe-section styles end --------*/
-
-/*-------- footer styles start --------*/
-
-.footer {
+.footer-navigation {
   background-color: #303030;
   color: #fff;
 }
 
-.footer__wrapper {
+.footer-navigation__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;

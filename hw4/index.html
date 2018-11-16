@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section class="section-top">
+<div class="section-top">
     <div class="section-top__wrapper">
         <header class="header block">
             <a href="#" class="header__logo">PASCO</a>
@@ -48,17 +48,16 @@
                 </ul>
             </nav>
         </header>
-        <div class="section-top__inner block">
+        <section class="section-top__inner block">
             <h2 class="subtitle">inspiration</h2>
             <h1 class="title uppercase">5 Ways milllennials can start <br> building their future today</h1>
-            <button type="button" name="read-more" class="btn btn_style btn-read-more"><a href="#">read more</a>
-            </button>
-        </div>
+            <button type="button" name="read-more" class="btn btn_style btn-read-more">read more</button>
+        </section>
     </div>
-</section>
+</div>
 <main class="main-content">
     <div class="main-content__wrapper block">
-        <section class="all-articles">
+        <div class="all-articles">
             <article class="main-article">
                 <div class="article__image-wrapper">
                     <img src="images/Layer48.jpg" alt="A man near the ocean">
@@ -82,7 +81,7 @@
                     <a href="#" class="icon-more fas fa-ellipsis-v"></a>
                 </footer>
             </article>
-            <section class="secondary-articles">
+            <div class="secondary-articles">
                 <article class="article">
                     <div class="article__image-wrapper">
                         <img src="images/Layer53.jpg" alt="A bunch of grapes in hands">
@@ -159,14 +158,12 @@
                         <a href="#" class="secondary-articles__icon-more icon-more fas fa-ellipsis-v"></a>
                     </footer>
                 </article>
-            </section>
-            <section class="view-more">
+            </div>
+            <div class="view-more">
                 <a href="#" class="view-more__link">More</a>
-                <button type="button" class="view-more__button">
-                    <a href="#" class="fas fa-arrow-right"></a>
-                </button>
-            </section>
-        </section>
+                <button type="button" class="view-more__button fas fa-arrow-right"></button>
+            </div>
+        </div>
         <aside class="sidebar">
             <h3 class="sidebar__title uppercase">categories</h3>
             <ul class="sidebar-menu font_open-sans">
@@ -208,11 +205,7 @@
                 <button type="submit" name="sidebar-subscribe" class="btn sidebar__btn-subscribe">subcribe</button>
             </form>
             <section class="social-links">
-                <div class="social-links__title-wrap">
-                    <img src="images/icons/Shape_1.jpg" alt="Line">
-                    <span class="social-links__title font_open-sans">or</span>
-                    <img src="images/icons/Shape_1.jpg" alt="Line">
-                </div>
+                <h4 class="social-links__title font_open-sans">or</h4>
                 <ul class="social-links__icons-list">
                     <li class="social-links__item social-links__item_fb">
                         <a class="social-links__link fab fa-facebook-f" target="_blank" href="#" title="Facebook"></a>

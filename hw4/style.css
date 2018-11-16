@@ -305,9 +305,6 @@ body {
   background-color: #fff;
   border-radius: 50%;
   border: none;
-}
-
-.view-more__button a {
   color: #3f51b5;
   font-size: 16px;
 }
@@ -381,20 +378,35 @@ body {
   background-color: #3f51b5;
 }
 
-.social-links__title-wrap {
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
+.social-links__title {
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  position: relative;
 }
 
-.social-links__title {
-  font-size: 16px;
-  letter-spacing: 0.8px;
-  padding: 0 7px;
+.social-links__title:before,
+.social-links__title:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 120px;
+  height: 1px;
+  display: block;
+  position: absolute;
+}
+
+.social-links__title:before {
+  top: 50%;
+  left: 0;
+}
+
+.social-links__title:after {
+  top: 50%;
+  right: 0;
 }
 
 .social-links__icons-list {
-  padding-top: 23px;
   display: flex;
   justify-content: space-between;
 }

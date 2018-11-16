@@ -284,6 +284,18 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+.textbox{
+  margin-top:-20px;
+}
+.textbox:before{
+  content:"";
+  display:block;
+  height:20px;
+  position:relative;
+  top:105px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.54) 15%);
+}
+
 .secondary-articles__icon-more {
   right: 20px;
   bottom: 27px;

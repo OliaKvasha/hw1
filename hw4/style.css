@@ -67,10 +67,6 @@ body {
 }
 
 .header__logo {
-  display: block;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 1.92px;
   padding-top: 24px;
 }
 
@@ -82,7 +78,7 @@ body {
 }
 
 .main-menu__item {
-  padding: 30px 0 25px 26px;
+  padding: 30px 0 25px 22px;
 }
 
 .main-menu__item:hover {
@@ -98,7 +94,7 @@ body {
 }
 
 .main-menu__link {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .section-top__inner {

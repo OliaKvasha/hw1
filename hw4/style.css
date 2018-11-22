@@ -21,7 +21,7 @@ body {
   font-variant: small-caps;
   letter-spacing: 1.2px;
   border: none;
-  line-height: 36px;
+  line-height: 38px;
   display: block;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .main-menu__item {
-  padding: 30px 0 25px 22px;
+  padding: 27px 0 26px 21px;
 }
 
 .main-menu__item:hover {
@@ -88,7 +88,7 @@ body {
 }
 
 .main-menu__item:first-child {
-  padding-left: 13px;
+  padding-left: 15px;
 }
 
 .main-menu__item_selected {
@@ -101,7 +101,7 @@ body {
 
 .section-top__inner {
   text-align: center;
-  padding-top: 214px;
+  padding-top: 206px;
 }
 
 .subtitle {
@@ -109,17 +109,18 @@ body {
   font-size: 28px;
   font-variant: small-caps;
   font-weight: 400;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.3px;
 }
 
 .title {
   font-size: 42px;
-  letter-spacing: 2.1px;
-  padding-top: 50px;
+  letter-spacing: 1.1px;
+  padding-top: 38px;
+  line-height: 49px;
 }
 
 .btn-read-more {
-  margin-top: 98px;
+  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -149,9 +150,9 @@ body {
 }
 
 .main-article__title {
-  font-size: 18px;
-  letter-spacing: 0.9px;
-  padding-top: 18px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding-top: 15px;
   padding-left: 20px;
 }
 
@@ -164,7 +165,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.64px;
   line-height: 26px;
-  padding: 13px 36px 16px 19px;
+  padding: 8px 36px 13px 19px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -181,13 +182,12 @@ body {
 
 .block-icons_on-picture span {
   font-size: 12px;
-  letter-spacing: 0.6px;
   padding-right: 20px;
-  padding-left: 5px;
+  padding-left: 2px;
 }
 
 .article__author {
-  padding: 19px 10px 21px 20px;
+  padding: 20px 10px 21px 20px;
   position: relative;
 }
 
@@ -205,7 +205,7 @@ body {
 .article__date {
   color: rgba(33, 33, 33, 0.54);
   font-size: 12px;
-  line-height: 27px;
+  line-height: 21px;
   letter-spacing: 0.6px;
 }
 
@@ -309,7 +309,7 @@ body {
 .article__title {
   font-size: 14px;
   line-height: 24px;
-  padding: 17px 23px 0 21px;
+  padding: 8px 23px 0 21px;
 }
 
 .article__title:hover {
@@ -317,23 +317,26 @@ body {
 }
 
 .article__text {
-  font-size: 14px;
+  font-size: 13.5px;
   line-height: 21px;
   letter-spacing: 0.56px;
-  padding: 18px 23px 30px 19px;
+  padding: 18px 23px 20px 19px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .textbox{
-  margin-top:-20px;
+  margin-top:-30px;
 }
+
 .textbox:before{
   content:"";
   display:block;
   height:20px;
+  width: 46px;
   position:relative;
-  top:105px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.54) 15%);
+  top:80px;
+  left: 166px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.77) 6%)
 }
 
 .secondary-articles__icon-more {
@@ -342,13 +345,13 @@ body {
 }
 
 .view-more {
-  padding: 78px 0 69px;
+  padding: 75px 0 69px;
   text-align: right;
 }
 
 .view-more__link {
   color: #303f9f;
-  letter-spacing: 0.8px;
+  letter-spacing: 1.8px;
 }
 
 .view-more__link:hover {
@@ -377,8 +380,8 @@ body {
 .sidebar__title {
   color: #3f51b5;
   font-size: 18px;
-  letter-spacing: 1.15px;
-  padding: 36px 0 10px;
+  letter-spacing: 0.5px;
+  padding: 36px 0 8px;
   border-bottom: 1px solid rgba(41, 98, 255, 0.38);
 }
 
@@ -386,7 +389,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.56px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 15px 0;
+  padding: 11px 0 14px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -405,7 +408,7 @@ body {
 }
 
 .sidebar-form {
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 .sidebar-form__item {
@@ -415,7 +418,7 @@ body {
 
 .sidebar-form__label {
   display: block;
-  padding: 16px 0 15px;
+  padding: 12px 0;
 }
 
 .sidebar-form__field {
@@ -424,6 +427,7 @@ body {
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   padding-left: 17px;
+  letter-spacing: 1.7px;
 }
 
 .sidebar__btn-subscribe {
@@ -533,7 +537,7 @@ body {
 }
 
 .subscribe-section__inner {
-  padding: 77px 0;
+  padding: 74px 0;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -542,7 +546,7 @@ body {
 .subscribe-section__label {
   font-size: 42px;
   font-weight: 700;
-  letter-spacing: 2.1px;
+  letter-spacing: 1.9px;
 }
 
 .subscribe-section__field {
@@ -550,7 +554,7 @@ body {
   color: rgba(255, 255, 255, 0.54);
   font-size: 16px;
   letter-spacing: 0.8px;
-  width: 270px;
+  width: 250px;
   height: 45px;
   border-radius: 22px;
   border: 1px solid #ffffff;
@@ -573,11 +577,11 @@ body {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.6px;
-  padding: 35px 0;
+  padding: 38px 0;
 }
 
 .footer-menu__item {
-  padding: 0 20px;
+  padding: 0 19px;
 }
 
 .footer-menu__item:first-child {

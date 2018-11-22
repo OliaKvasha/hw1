@@ -21,6 +21,8 @@ body {
   font-variant: small-caps;
   letter-spacing: 1.2px;
   border: none;
+  line-height: 36px;
+  display: block;
 }
 
 .btn:hover {
@@ -118,6 +120,8 @@ body {
 
 .btn-read-more {
   margin-top: 98px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-------- section-top styles end --------*/
@@ -149,6 +153,10 @@ body {
   letter-spacing: 0.9px;
   padding-top: 18px;
   padding-left: 20px;
+}
+
+.main-article__title:hover {
+  text-decoration: underline;
 }
 
 .main-article__text {
@@ -304,6 +312,10 @@ body {
   padding: 17px 23px 0 21px;
 }
 
+.article__title:hover {
+  text-decoration: underline;
+}
+
 .article__text {
   font-size: 14px;
   line-height: 21px;
@@ -336,7 +348,6 @@ body {
 
 .view-more__link {
   color: #303f9f;
-  font-size: 16px;
   letter-spacing: 0.8px;
 }
 
@@ -352,7 +363,6 @@ body {
   border-radius: 50%;
   border: none;
   color: #3f51b5;
-  font-size: 16px;
 }
 
 /*-------- all-articles styles end --------*/
@@ -409,7 +419,6 @@ body {
 }
 
 .sidebar-form__field {
-  color: rgba(0, 0, 0, 0.38);
   min-width: 251px;
   height: 45px;
   border-radius: 4px;

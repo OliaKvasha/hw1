@@ -366,6 +366,12 @@ body {
   border-radius: 50%;
   border: none;
   color: #3f51b5;
+  text-align: center;
+  line-height: 42px;
+}
+
+.view-more__button:hover {
+  color: #a454b5;
 }
 
 /*-------- all-articles styles end --------*/
@@ -537,7 +543,7 @@ body {
 }
 
 .subscribe-section__inner {
-  padding: 74px 0;
+  padding: 75px 0 72px;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -559,6 +565,7 @@ body {
   border-radius: 22px;
   border: 1px solid #ffffff;
   background-color: rgba(48, 48, 48, 0.38);
+  margin-left: 10px;
 }
 
 .footer-navigation {

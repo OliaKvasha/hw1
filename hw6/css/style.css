@@ -14,6 +14,14 @@ body {
   margin: auto;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
 .btn {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
@@ -35,10 +43,6 @@ body {
   box-shadow: 0 17px 24px rgba(48, 63, 159, 0.2);
   border-radius: 22px;
   background-color: #303f9f;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 .clearfix::after {
@@ -86,7 +90,11 @@ body {
 }
 
 .sign-in {
-
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  line-height: 27px;
+  /* Text style for "sign in" */
+  letter-spacing: 0.8px;
 }
 
 
@@ -134,7 +142,6 @@ body {
 .subtitle {
   opacity: 0.7;
   font-size: 28px;
-  font-variant: small-caps;
   font-weight: 400;
   letter-spacing: 1.3px;
 }
@@ -258,7 +265,6 @@ body {
 
 .label_on-picture {
   font-size: 16px;
-  font-variant: small-caps;
   letter-spacing: 0.8px;
   position: absolute;
   bottom: 15px;
@@ -640,7 +646,6 @@ body {
 
 .change-language__link {
   font-size: 16px;
-  font-variant: small-caps;
   letter-spacing: 0.8px;
   padding: 0 5px;
 }

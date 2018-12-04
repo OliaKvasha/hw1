@@ -634,8 +634,7 @@ body {
   padding-left: 0;
 }
 
-.footer-menu__link:hover,
-.change-language__link:hover {
+.footer-menu__link:hover {
   color: #4d6185;
 }
 
@@ -654,6 +653,10 @@ body {
   font-size: 16px;
   letter-spacing: 0.8px;
   padding: 0 5px;
+}
+
+.change-language__link:hover {
+  text-decoration: underline;
 }
 
 .change-language i {

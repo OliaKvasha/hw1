@@ -72,7 +72,13 @@ body {
 }
 
 .top-menu__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.top-menu_right-section {
+  display: flex;
 }
 
 .social-icons {
@@ -85,18 +91,18 @@ body {
   letter-spacing: 15px;
 }
 
-.social-icons__item:hover {
+.social-icons__item:hover,
+.sign-in:hover {
   color: rgb(255, 255, 255);
 }
 
 .sign-in {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
-  line-height: 27px;
-  /* Text style for "sign in" */
   letter-spacing: 0.8px;
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid rgba(180, 180, 180, 0.39);
 }
-
 
 .header__nav {
   display: flex;

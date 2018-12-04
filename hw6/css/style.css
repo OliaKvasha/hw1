@@ -74,6 +74,10 @@ body {
   top: 405px;
 }
 
+.keyboard-arrow:hover {
+  color: #ff4081;
+}
+
 .keyboard-arrow_left {
   left: 42px;
 }

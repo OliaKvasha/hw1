@@ -323,7 +323,7 @@ body {
 }
 
 .article__author {
-  padding: 20px 10px 21px 20px;
+  padding: 19px 10px 21px 20px;
   position: relative;
 }
 
@@ -371,7 +371,7 @@ body {
 
 .popular-article .article__text {
   font-size: 14px;
-  padding: 4px 0 15px;
+  padding: 6px 0 15px;
 }
 
 .popular-article .article__author {
@@ -384,7 +384,7 @@ body {
 }
 
 .secondary-articles {
-  margin-top: 88px;
+  margin-top: 18px;
   display: flex;
 }
 
@@ -506,7 +506,7 @@ body {
   font-size: 13.5px;
   line-height: 21px;
   letter-spacing: 0.56px;
-  padding: 18px 23px 20px 19px;
+  padding: 17px 23px 23px 19px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 

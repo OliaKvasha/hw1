@@ -241,6 +241,7 @@ body {
   color: rgba(0, 0, 0, 0.87);
   font-size: 16px;
   letter-spacing: 0.8px;
+  box-shadow: 0 1px 0 #dddddd;
 }
 
 .sort__title {
@@ -366,26 +367,42 @@ body {
   font-size: 16px;
   letter-spacing: 0.8px;
   position: absolute;
-  bottom: 15px;
-  left: 20px;
+  bottom: 19px;
+  left: 19px;
 }
 
 .icon_on-picture {
-  background: url(../images/icons/play.png) no-repeat 50% 50%;
+  background: url(../images/icons/play.png);
   background-size: cover;
   width: 40px;
   height: 40px;
   position: absolute;
-  top: 60px;
-  left: 110px;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
 }
 
 .icon_on-picture:hover {
-  width: 43px;
-  height: 43px;
-  top: 57px;
-  left: 107px;
+  width: 44px;
+  height: 44px;
+  margin-top: -22px;
+  margin-left: -22px;
   transition: 0.3s;
+}
+
+.main-article .icon_on-picture {
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+}
+
+.main-article .icon_on-picture:hover {
+  width: 56px;
+  height: 56px;
+  margin-top: -28px;
+  margin-left: -28px;
 }
 
 .shadow {

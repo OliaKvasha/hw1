@@ -279,7 +279,9 @@ body {
   max-width: 820px;
 }
 
-.main-article, .article {
+.main-article,
+.popular-article,
+.article {
   background-color: #fff;
 }
 
@@ -348,6 +350,37 @@ body {
   position: absolute;
   right: 21px;
   bottom: 39px;
+}
+
+.popular-article {
+  margin-top: 18px;
+}
+
+.popular-article:first-child {
+  margin-top: 21px;
+}
+
+.popular-article .article__image-wrapper {
+  float: left;
+  margin-right: 20px;
+}
+
+.popular-article .article__title {
+  letter-spacing: 0.4px;
+}
+
+.popular-article .article__text {
+  font-size: 14px;
+  padding: 4px 0 15px;
+}
+
+.popular-article .article__author {
+  padding: 11px 0 0 0;
+}
+
+.popular-article__icon-more {
+  right: 19px;
+  bottom: 29px;
 }
 
 .secondary-articles {
@@ -459,6 +492,10 @@ body {
   font-size: 14px;
   line-height: 24px;
   padding: 8px 23px 0 21px;
+}
+
+.popular-articles .article__title {
+  font-size: 16px;
 }
 
 .article__title:hover {

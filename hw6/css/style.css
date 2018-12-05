@@ -529,8 +529,8 @@ body {
 }
 
 .secondary-articles__icon-more {
-  right: 20px;
-  bottom: 27px;
+  right: 19px;
+  bottom: 31px;
 }
 
 .some-article {
@@ -573,7 +573,7 @@ body {
 }
 
 .view-more {
-  padding: 75px 0 69px;
+  padding: 34px 0 44px;
   text-align: right;
 }
 

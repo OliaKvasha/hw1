@@ -918,6 +918,13 @@ body {
   width: 270px;
   padding-top: 48px;
   padding-bottom: 66px;
+  margin-right: 27px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.widget:last-child {
+  margin-right: 0;
 }
 
 .widget__title {
@@ -985,8 +992,58 @@ body {
   padding: 15px 0 6px 13px;
 }
 
-.submenu__item:hover {
+.submenu__item:hover,
+.twitter-widget__title:hover {
   text-decoration: underline;
+}
+
+.twitter-widget__menu {
+  margin-bottom: 20px;
+}
+
+.twitter-widget__item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-bottom: 13px;
+  margin-top: 15px;
+}
+
+.twitter-widget__item:last-child {
+  border-bottom: none;
+}
+
+.twitter-widget__img {
+  color: #55acee;
+  font-size: 20px;
+  float: left;
+  margin-left: 10px;
+}
+
+.twitter-widget__title {
+  font-weight: 400;
+  margin: 0 0 15px 47px;
+  line-height: 16px;
+}
+
+.twitter-widget__links {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.twitter-widget__link {
+  padding-right: 8px;
+}
+
+.twitter-widget__link:hover {
+  color: #fff;
+}
+
+.twitter-widget__link:not(:first-child) {
+  text-decoration: underline;
+}
+
+.social-widget__title {
+  margin-bottom: 19px;
 }
 
 .footer-navigation {

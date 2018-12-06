@@ -512,17 +512,17 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.textbox{
-  margin-top:-30px;
+.textbox {
+  margin-top: -30px;
 }
 
-.textbox:before{
-  content:"";
-  display:block;
-  height:20px;
+.textbox:before {
+  content: "";
+  display: block;
+  height: 20px;
   width: 46px;
-  position:relative;
-  top:80px;
+  position: relative;
+  top: 80px;
   left: 166px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.77) 6%)
 }
@@ -781,6 +781,10 @@ body {
   background-color: #ea4c89;
 }
 
+.post-widget {
+  margin-bottom: 4px;
+}
+
 .post-widget__btn {
   color: #3f51b5;
   font-family: 'Montserrat', sans-serif;
@@ -829,6 +833,20 @@ body {
   position: absolute;
   top: 13px;
   right: 0;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tags__item {
+  font-size: 14px;
+  letter-spacing: 0.56px;
+  border-radius: 4px;
+  background-color: #eeeeee;
+  margin: 10px 10px 0 0;
+  padding: 7px 15px;
+  display: inline-block;
 }
 
 /*-------- sidebar styles end --------*/

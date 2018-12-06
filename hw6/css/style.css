@@ -646,8 +646,12 @@ body {
   color: #3f51b5;
   font-size: 18px;
   letter-spacing: 0.5px;
-  padding: 36px 0 8px;
+  padding: 28px 0 9px;
   border-bottom: 1px solid rgba(41, 98, 255, 0.38);
+}
+
+.sidebar-menu {
+  padding-bottom: 9px;
 }
 
 .sidebar-menu__item {
@@ -683,16 +687,16 @@ body {
 
 .sidebar-form__label {
   display: block;
-  padding: 12px 0;
+  padding: 13px 0 11px;
 }
 
 .sidebar-form__field {
-  min-width: 251px;
+  width: 251px;
   height: 45px;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   padding-left: 17px;
-  letter-spacing: 1.7px;
+  letter-spacing: 2.2px;
 }
 
 .sidebar__btn-subscribe {
@@ -700,6 +704,7 @@ body {
   height: 45px;
   border-radius: 4px;
   background-color: #3f51b5;
+  letter-spacing: 0;
 }
 
 .social-links__title {

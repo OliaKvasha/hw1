@@ -707,6 +707,10 @@ body {
   letter-spacing: 0;
 }
 
+.social-links {
+  margin-bottom: 20px;
+}
+
 .social-links__title {
   font-weight: 400;
   line-height: 52px;
@@ -775,6 +779,25 @@ body {
 
 .social-links__item_dribbble {
   background-color: #ea4c89;
+}
+
+.post-widget__btn {
+  color: #3f51b5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 135px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #3f51b5;
+  margin-top: 17px;
+}
+
+.post-widget__btn_selected {
+  color: #ffffff;
+  border-radius: 4px 0 0 4px;
+  background-color: #3f51b5;
+  float: left;
 }
 
 /*-------- sidebar styles end --------*/

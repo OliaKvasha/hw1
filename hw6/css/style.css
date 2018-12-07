@@ -167,6 +167,7 @@ body {
 .header-actions__item {
   padding: 0 14px;
   border-right: 1px solid rgba(180, 180, 180, 0.3);
+  font-size: 18px;
 }
 
 .header-actions__item:last-child {
@@ -319,7 +320,7 @@ body {
 
 .block-icons_on-picture span {
   font-size: 12px;
-  padding-right: 20px;
+  padding-right: 18px;
   padding-left: 2px;
 }
 
@@ -406,35 +407,30 @@ body {
 }
 
 .icon_on-picture {
-  background: url(../images/icons/play.png);
-  background-size: cover;
-  width: 40px;
-  height: 40px;
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -20px;
   margin-left: -20px;
+  cursor: pointer;
 }
 
 .icon_on-picture:hover {
-  width: 44px;
-  height: 44px;
+  font-size: 44px;
   margin-top: -22px;
   margin-left: -22px;
   transition: 0.3s;
 }
 
 .main-article .icon_on-picture {
-  width: 50px;
-  height: 50px;
+  font-size: 50px;
   margin-top: -25px;
   margin-left: -25px;
 }
 
 .main-article .icon_on-picture:hover {
-  width: 56px;
-  height: 56px;
+  font-size: 56px;
   margin-top: -28px;
   margin-left: -28px;
 }
@@ -642,7 +638,9 @@ body {
 }
 
 .search-button {
-  background: #ff4081 url("../images/icons/search_ico.png") no-repeat center;
+  background: #ff4081;
+  color: #fff;
+  font-size: 16px;
   width: 35px;
   height: 35px;
   border: none;
@@ -846,6 +844,19 @@ body {
   right: 0;
 }
 
+.post__icon i {
+  color: #3f51b5;
+  font-size: 14px;
+  position: absolute;
+  top: -3px;
+  right: 16px;
+}
+
+.post__icon span {
+  color: #a1b1bc;
+  font-size: 12px;
+}
+
 .tags {
   margin-top: 10px;
 }
@@ -855,7 +866,7 @@ body {
   letter-spacing: 0.56px;
   border-radius: 4px;
   background-color: #eeeeee;
-  margin: 10px 10px 0 0;
+  margin: 10px 10px 3px 0;
   padding: 7px 15px;
   display: inline-block;
 }
@@ -1165,11 +1176,6 @@ body {
   align-items: center;
 }
 
-.change-language__icon {
-  width: 16px;
-  height: 16px;
-}
-
 .change-language__link {
   font-size: 16px;
   letter-spacing: 0.8px;
@@ -1181,7 +1187,7 @@ body {
 }
 
 .change-language i {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /*-------- footer styles end --------*/

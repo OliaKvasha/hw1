@@ -391,49 +391,53 @@
         <aside class="sidebar">
             <form action="/" method="get" class="search-form">
                 <input type="search" class="search-field font_open-sans" placeholder="Search">
-                <button type="submit" name="search" value="search" class="search-button fas fa-search"></button>
                 <!--similar to the original-->
+                <button type="submit" name="search" value="search" class="search-button fas fa-search"></button>
             </form>
-            <h3 class="sidebar__title uppercase">categories</h3>
-            <ul class="sidebar-menu font_open-sans">
-                <li class="sidebar-menu__item">
-                    <a href="#">Photography</a>
-                    <span>195</span>
-                </li>
-                <li class="sidebar-menu__item">
-                    <a href="#">Illustration</a>
-                    <span>15</span>
-                </li>
-                <li class="sidebar-menu__item">
-                    <a href="#">Graphic Design</a>
-                    <span>36</span>
-                </li>
-                <li class="sidebar-menu__item">
-                    <a href="#">Web design</a>
-                    <span>220</span>
-                </li>
-                <li class="sidebar-menu__item">
-                    <a href="#">Videography</a>
-                    <span>17</span>
-                </li>
-            </ul>
-            <h3 class="sidebar__title uppercase">subcribe</h3>
-            <form action="/" method="post">
-                <ul class="sidebar-form font_open-sans">
-                    <li class="sidebar-form__item">
-                        <label for="name" class="sidebar-form__label">Name</label>
-                        <input type="text" class="sidebar-form__field font_open-sans" id="name" name="name"
-                               placeholder="Igor Ten">
+            <section class="categories">
+                <h3 class="sidebar__title uppercase">categories</h3>
+                <ul class="sidebar-menu font_open-sans">
+                    <li class="sidebar-menu__item">
+                        <a href="#">Photography</a>
+                        <span>195</span>
                     </li>
-                    <li class="sidebar-form__item">
-                        <label for="email-address" class="sidebar-form__label">Email</label>
-                        <input type="email" class="sidebar-form__field font_open-sans" name="email-address"
-                               id="email-address" placeholder="email@adress.com">
+                    <li class="sidebar-menu__item">
+                        <a href="#">Illustration</a>
+                        <span>15</span>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a href="#">Graphic Design</a>
+                        <span>36</span>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a href="#">Web design</a>
+                        <span>220</span>
+                    </li>
+                    <li class="sidebar-menu__item">
+                        <a href="#">Videography</a>
+                        <span>17</span>
                     </li>
                 </ul>
-                <button type="submit" name="sidebar-subscribe" class="btn sidebar__btn-subscribe small-caps">subcribe
-                </button>
-            </form>
+            </section>
+            <section class="subcribe">
+                <h3 class="sidebar__title uppercase">subcribe</h3>
+                <form action="/" method="post">
+                    <ul class="sidebar-form font_open-sans">
+                        <li class="sidebar-form__item">
+                            <label for="name" class="sidebar-form__label">Name</label>
+                            <input type="text" class="sidebar-form__field font_open-sans" id="name" name="name"
+                                   placeholder="Igor Ten">
+                        </li>
+                        <li class="sidebar-form__item">
+                            <label for="email-address" class="sidebar-form__label">Email</label>
+                            <input type="email" class="sidebar-form__field font_open-sans" name="email-address"
+                                   id="email-address" placeholder="email@adress.com">
+                        </li>
+                    </ul>
+                    <button type="submit" name="sidebar-subscribe" class="btn sidebar__btn-subscribe small-caps">subcribe
+                    </button>
+                </form>
+            </section>
             <section class="social-links">
                 <p class="social-links__title font_open-sans">or</p>
                 <ul class="social-links__icons-list">
@@ -459,8 +463,10 @@
             </section>
             <section class="post-widget">
                 <h3 class="sidebar__title uppercase">tab post widget</h3>
-                <button type="button" class="post-widget__btn post-widget__btn_selected small-caps">recent post</button>
-                <button type="button" class="post-widget__btn small-caps">popular post</button>
+                <ul class="post-widget__menu">
+                    <li class="post-widget__tab post-widget__tab_selected small-caps">recent post</li>
+                    <li class="post-widget__tab small-caps">popular post</li>
+                </ul>
                 <article class="post font_open-sans">
                     <img class="post__img" src="images/Layer_65.jpg" alt="Man with a beard">
                     <p class="post__date">April 28, 2016</p>
@@ -506,30 +512,32 @@
                     </div>
                 </article>
             </section>
-            <h3 class="sidebar__title uppercase">tags</h3>
-            <ul class="tags font_open-sans">
-                <li class="tags__item">
-                    <a href="#">Photography</a>
-                </li>
-                <li class="tags__item">
-                    <a href="#">Webdesign</a>
-                </li>
-                <li class="tags__item">
-                    <a href="#">Youtube</a>
-                </li>
-                <li class="tags__item">
-                    <a href="#">Envato</a>
-                </li>
-                <li class="tags__item">
-                    <a href="#">Art</a>
-                </li>
-                <li class="tags__item">
-                    <a href="#">Themefotest</a>
-                </li>
-                <li class="tags__item">
-                    <a href="#">Illustration</a>
-                </li>
-            </ul>
+            <section class="tags-block">
+                <h3 class="sidebar__title uppercase">tags</h3>
+                <ul class="tags font_open-sans">
+                    <li class="tags__item">
+                        <a href="#">Photography</a>
+                    </li>
+                    <li class="tags__item">
+                        <a href="#">Webdesign</a>
+                    </li>
+                    <li class="tags__item">
+                        <a href="#">Youtube</a>
+                    </li>
+                    <li class="tags__item">
+                        <a href="#">Envato</a>
+                    </li>
+                    <li class="tags__item">
+                        <a href="#">Art</a>
+                    </li>
+                    <li class="tags__item">
+                        <a href="#">Themefotest</a>
+                    </li>
+                    <li class="tags__item">
+                        <a href="#">Illustration</a>
+                    </li>
+                </ul>
+            </section>
         </aside>
     </div>
 </main>

@@ -1046,6 +1046,24 @@ body {
   margin-bottom: 19px;
 }
 
+.flickr-widget {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flickr-widget__link {
+  margin-bottom: 9px;
+}
+
+.flickr-widget__link:hover {
+  opacity: 0.6;
+}
+
+.flickr-widget__img {
+  vertical-align: bottom;
+}
+
 .footer-navigation {
   background-color: #303030;
   color: #fff;

@@ -5,6 +5,10 @@ body {
   font-weight: 400;
 }
 
+a {
+  cursor: pointer;
+}
+
 .font_open-sans {
   font-family: 'Open Sans', sans-serif;
 }
@@ -143,7 +147,8 @@ body {
   padding: 27px 0 26px 21px;
 }
 
-.main-menu__item:hover {
+.main-menu__item:hover,
+.header-actions__item:hover {
   color: #ff4081;
 }
 
@@ -255,18 +260,20 @@ body {
   border-radius: 15px;
   display: inline-block;
   padding: 5px 27px 7px;
-  margin: 15px 14px 15px -5px;
+  margin: 15px 0 15px 8px;
+  border: 1px solid transparent;
 }
 
 .sort__item:hover {
   color: #3f51b5;
+  border: 1px solid #3f51b5;
 }
 
 .sort__item_selected {
   color: #3f51b5;
   border: 1px solid #3f51b5;
   background-color: #fff;
-  margin: 15px;
+  margin-left: 15px;
 }
 
 .main-content__wrapper {
@@ -651,6 +658,10 @@ body {
   top: 5px;
 }
 
+.search-button:hover {
+  background: #ff155e;
+}
+
 .sidebar__title {
   color: #3f51b5;
   font-size: 18px;
@@ -660,14 +671,14 @@ body {
 }
 
 .sidebar-menu {
-  padding-bottom: 9px;
+  padding-bottom: 3px;
 }
 
 .sidebar-menu__item {
   font-size: 14px;
   letter-spacing: 0.56px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 11px 0 14px 0;
+  padding: 14px 0 12px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -759,6 +770,10 @@ body {
   border-radius: 50%;
 }
 
+.social-links__item:hover {
+  opacity: 0.8;
+}
+
 .social-links__link {
   color: #fff;
   text-align: center;
@@ -809,6 +824,11 @@ body {
   line-height: 40px;
 }
 
+.post-widget__tab:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .post-widget__tab_selected {
   color: #fff;
   border-radius: 4px 0 0 4px;
@@ -840,6 +860,10 @@ body {
   line-height: 23px;
 }
 
+.post__title:hover {
+  text-decoration: underline;
+}
+
 .post__icon {
   position: absolute;
   top: 13px;
@@ -867,13 +891,17 @@ body {
   font-size: 14px;
   letter-spacing: 0.56px;
   border-radius: 4px;
-  background-color: #eeeeee;
+  background-color: #eee;
   margin: 10px 10px 3px 0;
   padding: 7px 15px;
   display: inline-block;
 }
 
-/*-------- sidebar styles end --------*/
+.tags__item:hover {
+  background-color: #cecece;
+}
+
+  /*-------- sidebar styles end --------*/
 /*-------- main-content styles end --------*/
 
 /*-------- gallery styles start --------*/
@@ -1111,6 +1139,10 @@ body {
   letter-spacing: 1.7px;
 }
 
+.widget-form__btn:hover {
+  background-color: #767676;
+}
+
 .footer-navigation {
   background-color: #303030;
   color: #fff;
@@ -1170,6 +1202,10 @@ body {
   top: 11px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__search-button:hover {
+  color: #4d6185;
 }
 
 .change-language {

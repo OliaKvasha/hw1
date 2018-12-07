@@ -1129,6 +1129,36 @@ body {
   color: #4d6185;
 }
 
+.footer__search-form {
+  margin-left: 86px;
+  position: relative;
+}
+
+.footer__search-field {
+  width: 220px;
+  height: 35px;
+  border-radius: 17px;
+  border: 1px solid rgba(255, 255, 255, 0.39);
+  background-color: transparent;
+  padding-left: 21px;
+}
+
+.footer__search-field::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.footer__search-button {
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .change-language {
   opacity: 0.5;
   display: flex;

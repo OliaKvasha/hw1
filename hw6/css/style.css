@@ -9,6 +9,10 @@ img {
   vertical-align: bottom;
 }
 
+button {
+  cursor: pointer;
+}
+
 .font_open-sans {
   font-family: 'Open Sans', sans-serif;
 }
@@ -147,7 +151,7 @@ img {
   padding: 27px 0 26px 21px;
 }
 
-.main-menu__item:hover,
+.main-menu__link:hover,
 .header-actions__item:hover {
   color: #ff4081;
 }
@@ -196,6 +200,9 @@ img {
   letter-spacing: 1.1px;
   padding-top: 16px;
   line-height: 49px;
+  font-weight: 900;
+  max-width: 830px;
+  margin: 0 auto;
 }
 
 .btn-read-more {
@@ -590,10 +597,6 @@ img {
   letter-spacing: 1.8px;
 }
 
-.view-more__link:hover {
-  text-decoration: underline;
-}
-
 .view-more__button {
   width: 42px;
   height: 42px;
@@ -606,6 +609,7 @@ img {
   line-height: 42px;
 }
 
+.view-more__link:hover,
 .view-more__button:hover {
   color: #a454b5;
 }
@@ -689,7 +693,7 @@ img {
   justify-content: space-between;
 }
 
-.sidebar-menu__item:hover {
+.sidebar-menu__item a:hover {
   text-decoration: underline;
 }
 
@@ -940,8 +944,8 @@ img {
 
 .subscribe-section__label {
   font-size: 42px;
-  font-weight: 700;
-  letter-spacing: 1.9px;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
 .subscribe-section__field {
@@ -955,6 +959,10 @@ img {
   border: 1px solid #ffffff;
   background-color: rgba(48, 48, 48, 0.38);
   margin-left: 10px;
+}
+
+.subscribe-section__btn {
+  padding-bottom: 10px;
 }
 
 .widgets {

@@ -262,6 +262,10 @@ button {
   line-height: 60px;
 }
 
+.sort__menu {
+  overflow: hidden;
+}
+
 .sort__item {
   background-color: #f5f5f5;
   border-radius: 15px;
@@ -299,6 +303,17 @@ button {
 .left-article,
 .right-article {
   background-color: #fff;
+  border-radius: 4px;
+}
+
+.main-article img,
+.secondary-articles img,
+.some-article img {
+  border-radius: 4px 4px 0 0;
+}
+
+.popular-article img {
+  border-radius: 4px 0 0 4px;
 }
 
 .main-article__title {
@@ -386,8 +401,14 @@ button {
   margin-right: 20px;
 }
 
+.popular-article__content {
+  float: right;
+  max-width: 540px;
+}
+
 .popular-article .article__title {
   letter-spacing: 0.4px;
+  padding: 11px 23px 0 0;
 }
 
 .popular-article .article__text {
@@ -401,7 +422,7 @@ button {
 
 .popular-article__icon-more {
   right: 19px;
-  bottom: 26px;
+  bottom: 19px;
 }
 
 .secondary-articles {
@@ -926,11 +947,7 @@ button {
 /*-------- footer styles start --------*/
 
 .subscribe-section {
-  background-color: rgb(33, 33, 33);
-}
-
-.subscribe-section__wrapper {
-  background: url(../images/Layer60.png);
+  background: url(../images/Layer60.png) rgb(33, 33, 33);
   height: 200px;
   max-width: 100%;
 }
@@ -942,7 +959,7 @@ button {
   justify-content: space-between;
 }
 
-.subscribe-section__label {
+.subscribe-section__title {
   font-size: 42px;
   font-weight: 900;
   letter-spacing: 1px;
@@ -1026,7 +1043,7 @@ button {
   right: 15px;
 }
 
-.submenu {
+.open {
   position: relative;
   height: 170px;
 }
@@ -1047,7 +1064,7 @@ button {
 }
 
 .submenu__item:hover,
-.twitter-widget__title:hover {
+.twitter-widget__text:hover {
   text-decoration: underline;
 }
 
@@ -1072,7 +1089,7 @@ button {
   margin-left: 10px;
 }
 
-.twitter-widget__title {
+.twitter-widget__text {
   font-weight: 400;
   margin: 0 0 15px 47px;
   line-height: 17px;
@@ -1127,6 +1144,7 @@ button {
   padding-left: 16px;
   padding-top: 5px;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .widget-form__field::placeholder {

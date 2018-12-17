@@ -1,19 +1,7 @@
 body {
-  background: red;
-}
-
-img {
-  background-color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 div {
-  background-image: url("../images/sailboat1.svg");
-  /* Style for "sailboat" */
-  width: 16px;
-  height: 16px;
-  background-color: #ffffff;
-}
-
-i {
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }

@@ -64,8 +64,69 @@ button {
 
 /*-------- header styles end --------*/
 
-div {
-  background: url("../images/background_photo1.jpg");
-  width: 100%;
-  height: 850px;
+/*-------- top-section styles start --------*/
+
+.top-section {
+  background: url("../images/background_photo1.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 297px;
+  padding-bottom: 300px;
+  text-align: center;
 }
+
+.main-title,
+.subtitle {
+  color: #f9fafe;
+}
+
+.main-title {
+  font-size: 72px;
+  letter-spacing: 4.54px;
+  margin-bottom: 29px;
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin-bottom: 90px;
+}
+
+.search-form {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form__field {
+  width: 569px;
+  padding: 25px 30px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-form__field::placeholder {
+  color: #717171;
+}
+
+.search-form__btn {
+  color: #ffffff;
+  font-weight: 700;
+  width: 200px;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+}
+
+.search-form__field,
+.search-form__btn {
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.56px;
+}
+
+.search-form__btn i {
+  margin-right: 10px;
+}
+
+/*-------- top-section styles end --------*/

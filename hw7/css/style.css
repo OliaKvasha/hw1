@@ -1,4 +1,5 @@
 /*-------- basics styles start --------*/
+
 body {
   font-family: 'Raleway', sans-serif;
 }
@@ -67,7 +68,7 @@ button {
 /*-------- top-section styles start --------*/
 
 .top-section {
-  background: url("../images/background_photo1.jpg") no-repeat;
+  background: url("../images/background_photo1.jpg") no-repeat center;
   background-size: cover;
   padding-top: 297px;
   padding-bottom: 300px;
@@ -130,3 +131,50 @@ button {
 }
 
 /*-------- top-section styles end --------*/
+
+/*-------- main-content styles start --------*/
+/*-------- report styles start --------*/
+
+.report__list {
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 30px 0;
+  max-width: 1200px;
+  display: flex;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.report__item {
+  border-right: 1px solid rgba(113, 113, 113, 0.3);
+  padding: 10px 96px;
+  text-align: center;
+}
+
+.report__item:last-child {
+  border: none;
+}
+
+.report__item-number {
+  color: #343434;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 13px;
+}
+
+.report__item-text {
+  color: #717171;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+}
+
+/*-------- report styles end --------*/
+
+
+
+
+
+
+/*-------- main-content styles end --------*/

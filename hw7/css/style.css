@@ -1,7 +1,71 @@
+/*-------- basics styles start --------*/
 body {
   font-family: 'Raleway', sans-serif;
 }
 
-div {
+img {
+  vertical-align: bottom;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font_open-sans {
   font-family: 'Open Sans', sans-serif;
+}
+
+/*-------- basics styles end --------*/
+
+/*-------- header styles start --------*/
+
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.header__nav {
+  color: #f9fafe;
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-menu__item {
+  display: inline-block;
+}
+
+.main-menu__link {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  padding: 14px 39px;
+  display: block;
+}
+
+.main-menu__link:hover {
+  color: #e7434e;
+}
+
+.sign-up {
+  border-radius: 5px;
+  border: 1px solid #f9fafe;
+}
+
+/*-------- header styles end --------*/
+
+div {
+  background: url("../images/background_photo1.jpg");
+  width: 100%;
+  height: 850px;
 }

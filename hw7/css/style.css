@@ -201,7 +201,7 @@ button {
   margin-bottom: 83px;
 }
 
-.explore-content {
+.img-gallery {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -258,7 +258,7 @@ button {
   color: #e7434e;
 }
 
-.explore__view-more {
+.view-more {
   color: #343434;
   font-size: 14px;
   font-weight: 700;
@@ -266,9 +266,10 @@ button {
   border-radius: 5px;
   border: 1px solid rgba(38, 38, 38, 0.3);
   padding: 24px 43px;
+  display: inline-block;
 }
 
-.explore__view-more:hover {
+.view-more:hover {
   background-color: rgba(157, 157, 157, 0.7);
 }
 
@@ -298,5 +299,33 @@ button {
 }
 
 /*-------- advantage styles end --------*/
+/*-------- featured styles start --------*/
+
+.featured {
+  padding-top: 101px;
+  padding-bottom: 87px;
+  text-align: center;
+}
+
+.featured .text_on-picture {
+  margin-bottom: 16px;
+}
+
+.description_on-picture {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #fff;
+}
+
+.description_on-picture a:hover {
+  color: #e7434e;
+}
+
+.user-friends {
+  margin-left: 30px;
+}
+
+/*-------- featured styles end --------*/
 
 /*-------- main-content styles end --------*/

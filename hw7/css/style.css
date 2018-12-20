@@ -135,6 +135,10 @@ button {
 /*-------- main-content styles start --------*/
 /*-------- report styles start --------*/
 
+.report {
+  margin-bottom: 40px;
+}
+
 .report__list {
   box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
   border-radius: 5px;
@@ -171,10 +175,74 @@ button {
 }
 
 /*-------- report styles end --------*/
+/*-------- explore styles start --------*/
 
+.explore {
+  text-align: center;
+}
 
+.section-title {
+  color: #343435;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+}
 
+.section-desc {
+  color: #717171;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.32px;
+  margin-bottom: 83px;
+}
 
+.explore-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+.image-wrapper {
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.icon_on-picture {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+  border-radius: 5px;
+  background-color: #e7434e;
+  position: absolute;
+  top: 30px;
+  left: 27px;
+  padding: 12px 12px 14px 15px;
+}
+
+.image-desc {
+  position: absolute;
+  bottom: 27px;
+  left: 28px;
+  text-align: left;
+}
+
+.text_on-picture {
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  margin-bottom: 3px;
+}
+
+.subtext_on-picture {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+}
+
+.text_on-picture,
+.subtext_on-picture {
+  display: block;
+}
+
+/*-------- explore styles end --------*/
 
 /*-------- main-content styles end --------*/

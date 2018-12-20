@@ -118,6 +118,10 @@ button {
   background-color: #e7434e;
 }
 
+.search-form__btn:hover {
+  background-color: #ff4651;
+}
+
 .search-form__field,
 .search-form__btn {
   border: none;
@@ -179,6 +183,7 @@ button {
 
 .explore {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .section-title {
@@ -268,5 +273,30 @@ button {
 }
 
 /*-------- explore styles end --------*/
+/*-------- advantage styles end --------*/
+
+.advantage {
+  background: url("../images/background_photo2.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 188px;
+  padding-bottom: 159px;
+  text-align: center;
+}
+
+.advantage__link {
+  border-radius: 5px;
+  background-color: #e7434e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  padding: 25px 45px;
+}
+
+.advantage__link:hover {
+  background-color: #ff4651;
+}
+
+/*-------- advantage styles end --------*/
 
 /*-------- main-content styles end --------*/

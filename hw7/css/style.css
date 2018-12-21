@@ -32,21 +32,22 @@ button {
 
 .header__nav {
   color: #f9fafe;
-  padding-top: 32px;
+  padding: 32px 252px 0 254px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .main-menu__item {
   display: inline-block;
+  margin: 5px 9px 0 15px;
 }
 
 .main-menu__link {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.64px;
-  padding: 14px 39px;
+  padding: 10px;
   display: block;
 }
 
@@ -57,6 +58,11 @@ button {
 .sign-up {
   border-radius: 5px;
   border: 1px solid #f9fafe;
+  margin: 0 0 0 13px;
+}
+
+.sign-up a {
+  padding: 10px 37px 13px 39px;
 }
 
 /*-------- header styles end --------*/
@@ -66,7 +72,7 @@ button {
 .top-section {
   background: url("../images/background_photo1.jpg") no-repeat center;
   background-size: cover;
-  padding-top: 297px;
+  padding-top: 288px;
   padding-bottom: 300px;
   text-align: center;
 }
@@ -78,8 +84,8 @@ button {
 
 .main-title {
   font-size: 72px;
-  letter-spacing: 4.54px;
-  margin-bottom: 29px;
+  letter-spacing: 5.3px;
+  margin-bottom: 14px;
 }
 
 .subtitle {
@@ -87,7 +93,7 @@ button {
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.2px;
-  margin-bottom: 90px;
+  margin-bottom: 87px;
 }
 
 .search-form {
@@ -97,7 +103,7 @@ button {
 
 .search-form__field {
   width: 569px;
-  padding: 25px 30px;
+  padding: 22px 28px;
   border-radius: 5px 0 0 5px;
 }
 
@@ -126,7 +132,7 @@ button {
 }
 
 .search-form__btn i {
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 /*-------- top-section styles end --------*/

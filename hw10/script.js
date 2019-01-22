@@ -1,5 +1,11 @@
 /*task1*/
-let firstNum = 5;
+const min = -100;
+const max = 100;
+
+let random = (min, max) => Math.round(Math.random() * (max - min) + min);
+
+let firstNum = random(min, max);
+console.log('1) Значення змінної:' + firstNum);
 if (firstNum > 10) {
     console.log('This number is more than 10')
 } else {
@@ -8,12 +14,16 @@ if (firstNum > 10) {
 
 /*task2*/
 let lang = 'ru';
+
+const ruMonths = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+const enMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
 switch (lang) {
     case 'ru':
-        console.log(['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']);
+        console.log(ruMonths);
         break;
     case 'en':
-        console.log(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']);
+        console.log(enMonths);
         break;
     default:
         console.log('Error');
@@ -35,14 +45,14 @@ while (num <= 15) {
 }
 
 /*task5*/
-let subtraction = (a, b) => a - b;
-console.log(subtraction(10, 20));
+let subtraction = (a, b) => console.log(a - b);
+subtraction(10, 20);
 
-let addition = (a, b) => a + b;
-console.log(addition(10, 20));
+let addition = (a, b) => console.log(a + b);
+addition(10, 20);
 
-let division = (a, b) => a / b;
-console.log(division(10, 20));
+let division = (a, b) => console.log(a / b);
+division(10, 20);
 
-let multiplication = (a, b) => a * b;
-console.log(multiplication(10, 20));
+let multiplication = (a, b) => console.log(a * b);
+multiplication(10, 20);

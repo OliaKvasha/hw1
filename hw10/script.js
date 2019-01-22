@@ -1,6 +1,6 @@
 /*task1*/
-let a = 5;
-if (a > 10) {
+let firstNum = 5;
+if (firstNum > 10) {
     console.log('This number is more than 10')
 } else {
     console.log('This number is less than 10')
@@ -33,3 +33,16 @@ while (num <= 15) {
     console.log(num);
     num++
 }
+
+/*task5*/
+let subtraction = (a, b) => a - b;
+console.log(subtraction(10, 20));
+
+let addition = (a, b) => a + b;
+console.log(addition(10, 20));
+
+let division = (a, b) => a / b;
+console.log(division(10, 20));
+
+let multiplication = (a, b) => a * b;
+console.log(multiplication(10, 20));

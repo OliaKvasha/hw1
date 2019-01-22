@@ -26,3 +26,10 @@ for (let i = 2; i < arr.length; i++) {
         console.log(arr[i])
     }
 }
+
+/*task4*/
+let num = 1;
+while (num <= 15) {
+    console.log(num);
+    num++
+}

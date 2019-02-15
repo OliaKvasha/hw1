@@ -1,19 +1,2 @@
 <?php
-    $name = $_POST['name'];
-    $surname = $_POST['surname'];
-    $sex = $_POST['sex'];
-    $age = $_POST['age'];
-    $photo = $_POST['photo'];
-    $birthday = $_POST['birthday'];
-    $emailAddress = $_POST['email-address'];
-    $phoneNumber = $_POST['phone-number'];
-    $password = $_POST['password'];
-    $website = $_POST['website'];
-    $occupation = $_POST['occupation'];
-    $dizlike1 = $_POST['dizlike1'];
-    $dizlike2 = $_POST['dizlike2'];
-    $dizlike3 = $_POST['dizlike3'];
-    $dizlike4 = $_POST['dizlike4'];
-    $dizlike5 = $_POST['dizlike5'];
-    $comment = $_POST['comment'];
-    $variant = $_POST['variant'];
+    var_dump($_POST);

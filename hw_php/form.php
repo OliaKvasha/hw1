@@ -1,8 +1,5 @@
 <?php
     var_dump($_POST);
 
-    $email = $_POST['email-address'];
-    echo "<br/>" .$email;
-
-    $userName = explode('@', $email);
+    $userName = explode('@', $_POST['email-address']);
     echo "<br/>" .$userName[0];

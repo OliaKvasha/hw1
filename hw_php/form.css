@@ -1,0 +1,25 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.red {
+  color: #F00;
+}
+
+.block {
+  display: block;
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+fieldset {
+  margin:  20px 0;
+}

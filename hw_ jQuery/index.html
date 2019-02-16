@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homework jQuery</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,400,700">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-<header id="header">
+<header id="header" class="container">
     <nav>
         <ul>
-            <li><a href="#">Головна</a></li>
-            <li><a href="#">Новини</a></li>
-            <li><a href="#">Контакти</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Contacts</a></li>
         </ul>
     </nav>
 </header>
-<section>
-    <h1>Lorem ipsum dolor sit</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dignissimos dolorem doloribus ea fuga iusto
-        labore magni sequi suscipit ullam! Aspernatur assumenda atque cumque, cupiditate, earum enim esse explicabo
-        magni minus molestias mollitia neque, nostrum odit optio pariatur porro quidem quis quod saepe sit suscipit
-        tempora temporibus vel! Aperiam at corporis distinctio eum harum illo laudantium magnam magni odit perferendis
-        porro quaerat quam quas quidem quis, rem sed sunt tempora vel voluptas! Accusamus aspernatur aut delectus
-        dignissimos distinctio eos eum id illum, iusto, labore minus perferendis possimus quaerat quis quo repellendus
-        sint? Ab blanditiis dolorum eveniet. Fuga nesciunt quisquam tenetur.</p>
-</section>
-<footer id="footer"></footer>
+<section class="content container">
+    <h1>Accordion</h1>
+    <div class="accordion">
+        <div class="accordion-header">Et quasi architecto</div>
+        <div class="accordion-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</div>
 
+        <div class="accordion-header">Nemo enim ipsam</div>
+        <div class="accordion-content">Et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</div>
+
+        <div class="accordion-header">Sed ut perspiciatis</div>
+        <div class="accordion-content">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</div>
+    </div>
+</section>
+<footer id="footer" class="container"></footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
